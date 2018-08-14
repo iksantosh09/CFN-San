@@ -8,7 +8,7 @@ then
   exit 1
 fi
 set -x
-
+#test-1
 git config --global user.email "build@build.com"
 git config --global user.name "build"
 
