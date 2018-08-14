@@ -46,6 +46,7 @@ opts = Trollop.options do
       default: false
 end
 
+#key value pair
 CfnNag.configure_logging(opts)
 
 profile_definition = nil
